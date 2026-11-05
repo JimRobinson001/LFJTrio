@@ -1,29 +1,11 @@
-# LFJ Trio website — Version 6
+# LFJ Trio — Website Version 12
 
-This version adds seven supplied performance images and a prominent **Écouter un extrait / Listen to a sample** button in the homepage hero. The button plays the enhanced 2026 audio montage and reveals native controls.
+Update: new cover photograph, new musician portraits, two additional gallery images, removal of musician numbers, and bilingual editorial revisions. The Jim biography is based on his own supplied biography; Lorraine and Fred’s short bios are provisional descriptions pending their questionnaire responses.
 
-## Publish on GitHub Pages
-Upload the **contents** of this folder into your `JimRobinson001/LFJTrio` repository, preserving the `assets/` folder. Replace files with matching names. Branch `main`, directory `/ (root)` is already configured. No further GitHub Pages configuration is needed.
+To update GitHub Pages, upload the contents of this `lfj-trio-website` folder to the existing `JimRobinson001/LFJTrio` repository root, preserving `assets/`. No DNS or custom domain changes are required.
 
-## Photos
-The gallery includes additional supplied candid performance photographs, portraits and past-event posters. Heads and full compositions are protected with `object-fit: contain`.
+The audio files in `assets/` are retained from Version 11.
 
-## Audio
-`assets/lfj-audio-montage-2026-enhanced.mp3` is used by both players.
-
-## Version 7
-Replaced the upcoming-dates placeholder with a bilingual booking invitation, linked to the existing contact section.
-
-## Version 8
-Combined Sections 4 and 5 into a single bilingual booking and contact section. The website now has four main sections. No confirmed future dates are displayed.
-
-## Version 9
-The homepage now gives the band name LFJ TRIO stronger visual prominence, while retaining the same main headline. Booking enquiries go directly to Lorraine Garville-Bowes at monalisa.1lc@icloud.com; Facebook is a secondary contact link.
-
-## Version 10 — homepage refresh
-Simplified homepage to two complementary fonts, a prominent LFJ Trio heading, one photograph, one line identifying music genres, a concise description, and two clear actions (listen/book). No changes to repertoire, gallery, booking details or audio. Upload all files in this directory, preserving `assets/`.
-
-## Version 11
-- Homepage genres now include Jazz, Blues, Soul and French chanson, in both languages.
-- English toggle translates the homepage genres, repertoire filter and footer genre line.
-- Removed visible captions from the Section 3 photo gallery (image alt text retained).
+## Version 13
+- Replaced Lorraine’s black-and-white gallery portrait with her supplied color portrait.
+- Removed the section numbers from headings in both French and English.

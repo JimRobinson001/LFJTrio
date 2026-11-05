@@ -79,3 +79,13 @@
 
 /* Version 11: gallery photographs are shown without visible captions. */
 .gallery-item figcaption{display:none!important}
+
+/* V12: equal profile cards; no musician numbering; protect faces and framing. */
+.profile-grid{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}
+.member-card .profile-photo{height:325px;object-fit:contain;object-position:center;background:#e3d7c8}
+.profile-card .profile-copy{padding:25px 25px 30px}
+.profile-card .profile-copy p:not(.member-role){line-height:1.75}
+.hero-refined .hero-single-photo{height:auto;min-height:0;aspect-ratio:1.22/1}
+.hero-refined .hero-single-photo img{height:100%;object-fit:contain;object-position:center}
+@media(max-width:900px){.profile-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.profile-grid{grid-template-columns:1fr}.member-card .profile-photo{height:340px}.hero-refined .hero-single-photo{height:auto;aspect-ratio:1.22/1}}
