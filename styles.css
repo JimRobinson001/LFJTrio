@@ -76,3 +76,6 @@
 @media(max-width:1050px){.hero-refined .hero-layout{grid-template-columns:1fr 1fr;gap:30px;padding-top:136px}.hero-refined h1{font-size:clamp(64px,7vw,92px)}.hero-refined .hero-single-photo{height:520px}}
 @media(max-width:760px){.hero-refined .hero-layout{grid-template-columns:1fr;padding-top:118px;padding-bottom:65px;gap:34px}.hero-refined h1{font-size:clamp(65px,15vw,88px)}.hero-refined .hero-single-photo{height:440px}.hero-refined .hero-buttons{gap:11px}.hero-refined .btn{width:auto}}
 @media(max-width:440px){.hero-refined .hero-single-photo{height:390px}.hero-refined .hero-buttons .btn{width:100%}}
+
+/* Version 11: gallery photographs are shown without visible captions. */
+.gallery-item figcaption{display:none!important}

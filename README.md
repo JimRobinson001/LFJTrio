@@ -22,3 +22,8 @@ The homepage now gives the band name LFJ TRIO stronger visual prominence, while 
 
 ## Version 10 — homepage refresh
 Simplified homepage to two complementary fonts, a prominent LFJ Trio heading, one photograph, one line identifying music genres, a concise description, and two clear actions (listen/book). No changes to repertoire, gallery, booking details or audio. Upload all files in this directory, preserving `assets/`.
+
+## Version 11
+- Homepage genres now include Jazz, Blues, Soul and French chanson, in both languages.
+- English toggle translates the homepage genres, repertoire filter and footer genre line.
+- Removed visible captions from the Section 3 photo gallery (image alt text retained).

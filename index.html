@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#14110e" />
   <meta name="description" content="LFJ Trio — jazz, soul et chanson française à Narbonne et en Occitanie. Voix, guitare et contrebasse pour concerts et événements privés." />
-  <title>LFJ Trio | Jazz • Soul • Chanson</title>
+  <title>LFJ Trio | Jazz • Blues • Soul • Chanson</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
@@ -35,7 +35,7 @@
         <div class="hero-content">
           <p class="hero-location" data-i18n="heroLocation">NARBONNE · OCCITANIE</p>
           <h1 id="hero-title">LFJ Trio</h1>
-          <p class="hero-genre" data-i18n="heroGenre">Jazz · Soul · Chanson française</p>
+          <p class="hero-genre" data-i18n="heroGenre">Jazz · Blues · Soul · Chanson française</p>
           <p class="hero-fr" data-i18n="heroSimpleLead">Une voix, une guitare, une contrebasse. Des standards revisités avec élégance et simplicité.</p>
           <div class="hero-buttons">
             <button class="btn btn-gold" id="hero-listen" type="button" aria-controls="hero-audio" aria-pressed="false"><span class="play-icon" aria-hidden="true">▶</span><span data-i18n="heroListen">Écouter un extrait</span></button>
@@ -117,7 +117,7 @@
             <span class="audio-duration" data-i18n="audioDuration">Durée : 2 min 42 s</span>
           </div>
         </div>
-        <div class="filter-row" role="group" aria-label="Filtrer le répertoire"><button class="filter active" data-filter="all" data-i18n="filterAll" aria-pressed="true">Tout écouter</button><button class="filter" data-filter="jazz" aria-pressed="false">Jazz & Swing</button><button class="filter" data-filter="soul" aria-pressed="false">Soul & Blues</button><button class="filter" data-filter="chanson" aria-pressed="false">Chanson française</button></div>
+        <div class="filter-row" role="group" aria-label="Filtrer le répertoire"><button class="filter active" data-filter="all" data-i18n="filterAll" aria-pressed="true">Tout écouter</button><button class="filter" data-filter="jazz" aria-pressed="false">Jazz & Swing</button><button class="filter" data-filter="soul" aria-pressed="false">Soul & Blues</button><button class="filter" data-filter="chanson" data-i18n="filterChanson" aria-pressed="false">Chanson française</button></div>
         <div class="song-grid" id="song-grid"></div>
         <p class="repertoire-note" data-i18n="repertoireNote">Une sélection de notre répertoire. Le programme s'adapte à chaque événement.</p>
       </div>
@@ -127,17 +127,17 @@
       <div class="wrap">
         <div class="section-heading gallery-heading"><div><span class="overline" data-i18n="galleryNo">03 — EN IMAGES</span><h2 data-i18n-html="galleryTitle">An intimate sound.<br/><em>A visual presence.</em></h2></div><p data-i18n="galleryIntro">Quelques images du trio, entre intimité, expression et présence scénique.</p></div>
         <div class="gallery-grid">
-          <figure class="gallery-item gallery-large"><img src="assets/lfj-trio-group.jpg" alt="Les trois membres du LFJ Trio ensemble." /><figcaption data-i18n="galleryCap1">Le trio au complet</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/lorraine-live.jpg" alt="Lorraine Garville-Bowes en performance." /><figcaption data-i18n="galleryCap2">Lorraine en performance</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/fred-bass.jpg" alt="Fred Solinas à la contrebasse." /><figcaption data-i18n="galleryCap3">Fred à la contrebasse</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/jim-guitar.jpg" alt="Jim Robinson à la guitare." /><figcaption data-i18n="galleryCap4">Jim à la guitare</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/live-intimate.jpg" alt="En concert dans un lieu intimiste" loading="lazy" /><figcaption data-i18n="galleryCap5">En concert dans un lieu intimiste</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/lorraine-portrait-bw.jpg" alt="Lorraine — portrait" loading="lazy" /><figcaption data-i18n="galleryCap6">Lorraine — portrait</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/live-terrace.jpg" alt="Concert en terrasse" loading="lazy" /><figcaption data-i18n="galleryCap7">Concert en terrasse</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/live-evening.jpg" alt="Concert en soirée" loading="lazy" /><figcaption data-i18n="galleryCap8">Concert en soirée</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/live-narbonne.jpg" alt="LFJ Trio en concert" loading="lazy" /><figcaption data-i18n="galleryCap9">LFJ Trio en concert</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/poster-september-2026.jpg" alt="Affiche — Le 89" loading="lazy" /><figcaption data-i18n="galleryCap10">Affiche — Le 89</figcaption></figure>
-          <figure class="gallery-item"><img src="assets/poster-june-2026.jpg" alt="Affiche — Le 89" loading="lazy" /><figcaption data-i18n="galleryCap11">Affiche — Le 89</figcaption></figure>
+          <figure class="gallery-item gallery-large"><img src="assets/lfj-trio-group.jpg" alt="Les trois membres du LFJ Trio ensemble." /></figure>
+          <figure class="gallery-item"><img src="assets/lorraine-live.jpg" alt="Lorraine Garville-Bowes en performance." /></figure>
+          <figure class="gallery-item"><img src="assets/fred-bass.jpg" alt="Fred Solinas à la contrebasse." /></figure>
+          <figure class="gallery-item"><img src="assets/jim-guitar.jpg" alt="Jim Robinson à la guitare." /></figure>
+          <figure class="gallery-item"><img src="assets/live-intimate.jpg" alt="En concert dans un lieu intimiste" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="assets/lorraine-portrait-bw.jpg" alt="Lorraine — portrait" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="assets/live-terrace.jpg" alt="Concert en terrasse" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="assets/live-evening.jpg" alt="Concert en soirée" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="assets/live-narbonne.jpg" alt="LFJ Trio en concert" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="assets/poster-september-2026.jpg" alt="Affiche — Le 89" loading="lazy" /></figure>
+          <figure class="gallery-item"><img src="assets/poster-june-2026.jpg" alt="Affiche — Le 89" loading="lazy" /></figure>
         </div>
       </div>
     </section>
@@ -163,6 +163,6 @@
       </div>
     </section>
   </main>
-  <footer class="footer"><div class="wrap footer-main"><a class="wordmark" href="#top">LFJ<span class="wordmark-dot">.</span><small>TRIO</small></a><p>Jazz · Soul · Chanson<br/>Narbonne, Occitanie, France</p><a href="https://www.facebook.com/profile.php?id=61579762451840" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div><div class="wrap footer-bottom"><span>© <span id="year"></span> LFJ Trio</span><span data-i18n="footerNote">Fait avec amour pour la musique.</span><a href="#top" data-i18n="top">Retour en haut ↑</a></div></footer>
+  <footer class="footer"><div class="wrap footer-main"><a class="wordmark" href="#top">LFJ<span class="wordmark-dot">.</span><small>TRIO</small></a><p><span data-i18n="footerGenres">Jazz · Blues · Soul · Chanson française</span><br/>Narbonne, Occitanie, France</p><a href="https://www.facebook.com/profile.php?id=61579762451840" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div><div class="wrap footer-bottom"><span>© <span id="year"></span> LFJ Trio</span><span data-i18n="footerNote">Fait avec amour pour la musique.</span><a href="#top" data-i18n="top">Retour en haut ↑</a></div></footer>
 </body>
 </html>
