@@ -52,3 +52,27 @@
 .booking-address{display:inline-block;color:#e8c18e;font-size:14px;overflow-wrap:anywhere;margin:0 0 24px;text-decoration:underline;text-decoration-color:#a27b4e;text-underline-offset:5px}
 .contact-card .contact-facebook{margin-top:22px;border-bottom:1px solid #78604b;padding-bottom:7px;color:#d8c6af}
 @media(max-width:760px){.hero-band-name{font-size:35px;margin-top:16px;margin-bottom:-5px}}
+
+/* Version 10 — quiet, editorial homepage: two typefaces, one photograph, two actions */
+.hero-refined{min-height:auto;background:#181511}
+.hero-refined:after,.hero-refined .hero-glow,.hero-refined .hero-pattern{display:none}
+.hero-refined .hero-layout{min-height:0;padding-top:145px;padding-bottom:76px;grid-template-columns:minmax(0, .95fr) minmax(0, 1.05fr);gap:clamp(40px,5vw,90px);align-items:center}
+.hero-refined .hero-content{padding:0;max-width:550px}
+.hero-location{font:500 12px/1.4 var(--sans);letter-spacing:.13em;color:#bfa787;margin:0 0 21px}
+.hero-refined h1{font:400 clamp(72px,8.2vw,118px)/1.03 var(--serif);letter-spacing:-.055em;margin:0 0 18px;white-space:normal;color:#f2eadc}
+.hero-genre{font:400 clamp(20px,2vw,26px)/1.5 var(--serif);color:var(--gold);margin:0 0 27px}
+.hero-refined .hero-fr{font:400 16px/1.85 var(--sans);color:#d0c1ad;max-width:440px;margin:0}
+.hero-refined .hero-buttons{gap:14px;margin-top:38px;flex-wrap:wrap}
+.hero-refined .btn{min-height:51px;justify-content:center;padding:16px 21px;font-size:12px;font-weight:600;letter-spacing:.015em;text-transform:none;gap:11px;border-radius:2px}
+.hero-refined .btn-simple-outline{border:1px solid #9d8062;background:transparent;color:#f2eadc}
+.hero-refined .btn-simple-outline:hover{border-color:var(--gold);background:#d8ae7117}
+.hero-refined .hero-single-photo{height:560px;width:100%;border:0;border-radius:2px;box-shadow:none;background:#211c18;overflow:hidden}
+.hero-refined .hero-single-photo img{width:100%;height:100%;object-fit:contain;object-position:center center;background:#211c18}
+.hero-refined .hero-single-photo:after{display:none}
+.hero-refined .hero-player{max-width:450px}
+/* Simplify navigation and button typography across the site. */
+.main-nav a{font-size:13px;letter-spacing:0}
+.header-book{letter-spacing:0;text-transform:none;font-size:12px}
+@media(max-width:1050px){.hero-refined .hero-layout{grid-template-columns:1fr 1fr;gap:30px;padding-top:136px}.hero-refined h1{font-size:clamp(64px,7vw,92px)}.hero-refined .hero-single-photo{height:520px}}
+@media(max-width:760px){.hero-refined .hero-layout{grid-template-columns:1fr;padding-top:118px;padding-bottom:65px;gap:34px}.hero-refined h1{font-size:clamp(65px,15vw,88px)}.hero-refined .hero-single-photo{height:440px}.hero-refined .hero-buttons{gap:11px}.hero-refined .btn{width:auto}}
+@media(max-width:440px){.hero-refined .hero-single-photo{height:390px}.hero-refined .hero-buttons .btn{width:100%}}

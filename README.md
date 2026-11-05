@@ -19,3 +19,6 @@ Combined Sections 4 and 5 into a single bilingual booking and contact section. T
 
 ## Version 9
 The homepage now gives the band name LFJ TRIO stronger visual prominence, while retaining the same main headline. Booking enquiries go directly to Lorraine Garville-Bowes at monalisa.1lc@icloud.com; Facebook is a secondary contact link.
+
+## Version 10 — homepage refresh
+Simplified homepage to two complementary fonts, a prominent LFJ Trio heading, one photograph, one line identifying music genres, a concise description, and two clear actions (listen/book). No changes to repertoire, gallery, booking details or audio. Upload all files in this directory, preserving `assets/`.
