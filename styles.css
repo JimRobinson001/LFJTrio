@@ -89,3 +89,6 @@
 .hero-refined .hero-single-photo img{height:100%;object-fit:contain;object-position:center}
 @media(max-width:900px){.profile-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.profile-grid{grid-template-columns:1fr}.member-card .profile-photo{height:340px}.hero-refined .hero-single-photo{height:auto;aspect-ratio:1.22/1}}
+
+/* Match the booking-section LFJ Trio heading to the homepage typography. */
+.contact-section .contact-brand{color:var(--paper);font-family:var(--serif);font-weight:400;font-style:normal;letter-spacing:-.037em;white-space:nowrap}
